@@ -22,9 +22,13 @@
     "watch": "rollup -cw"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
     "@types/prismjs": "^1.16.0",
     "@types/react": "^16.9.2",
     "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-typescript2": "^0.22.1",
     "typescript": "^3.5.3"

@@ -1,3 +1,4 @@
+import babel from 'rollup-plugin-babel';
 import typescript from 'rollup-plugin-typescript2';
 import postcss from 'rollup-plugin-postcss';
 import pkg from './package.json';
@@ -23,6 +24,7 @@ export default {
     postcss({
       plugins: [],
       extract: true
-    })
+    }),
+    babel({ exclude: 'node_modules/**' })
   ]
 };
