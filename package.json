@@ -29,7 +29,7 @@
     "@types/react": "^16.9.2",
     "rollup": "^1.19.4",
     "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.22.1",
     "typescript": "^3.5.3"
   },
